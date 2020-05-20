@@ -8,15 +8,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Destino project">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/styles/bootstrap4/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/plugins/font-awesome-4.7.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/plugins/OwlCarousel2-2.2.1/owl.carousel.css" />
-    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/plugins/OwlCarousel2-2.2.1/owl.theme.default.css" />
-    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/plugins/OwlCarousel2-2.2.1/animate.css" />
-    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/plugins/magnific-popup/magnific-popup.css" />
-    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/styles/main_styles.css" />
-    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/styles/my_main_style.css" />
-    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/styles/responsive.css" />
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/WebContent/styles/bootstrap4/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/WebContent/plugins/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/WebContent/plugins/OwlCarousel2-2.2.1/owl.carousel.css" />
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/WebContent/plugins/OwlCarousel2-2.2.1/owl.theme.default.css" />
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/WebContent/plugins/OwlCarousel2-2.2.1/animate.css" />
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/WebContent/plugins/magnific-popup/magnific-popup.css" />
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/WebContent/styles/main_styles.css" />
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/WebContent/styles/my_main_style.css" />
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/WebContent/styles/responsive.css" />
 </head>
 
 <body>
@@ -36,7 +36,7 @@
                                 <div class="logo">
                                     <div>uit</div>
                                     <div>travel</div>
-                                    <div class="logo_image"><img src="images/logo.png" alt=""></div>
+                                    <div class="logo_image"><img src="WebContent/images/logo.png" alt=""></div>
                                 </div>
                             </div>
 
@@ -54,7 +54,7 @@
                             <div class="search">
                                 <form action="#" class="search_form">
                                     <input type="search" name="search_input" class="search_input ctrl_class" required="required" placeholder="Từ khóa">
-                                    <div class="search_button ml-auto ctrl_class"><img src="images/search.png" alt=""></div>
+                                    <div class="search_button ml-auto ctrl_class"><img src="WebContent/images/search.png" alt=""></div>
                                 </form>
                             </div>
 
@@ -82,7 +82,7 @@
                     <div class="menu_search_form_container">
                         <form action="#" id="menu_search_form">
                             <input type="search" class="menu_search_input menu_mm">
-                            <button id="menu_search_submit" class="menu_search_submit" type="submit"><img src="images/search_2.png" alt=""></button>
+                            <button id="menu_search_submit" class="menu_search_submit" type="submit"><img src="WebContent/images/search_2.png" alt=""></button>
                         </form>
                     </div>
                     <ul class="menu_list menu_mm">
@@ -108,7 +108,7 @@
         <!-- Home -->
 
         <div class="home">
-            <div class="home_background" style="background-image:url(images/home.jpg)"></div>
+            <div class="home_background" style="background-image:url(WebContent/images/home.jpg)"></div>
             <div class="home_content">
                 <div class="home_content_inner">
                     <div class="home_text_large">discover</div>
@@ -138,7 +138,7 @@
                                 <!-- Miền Bắc item 1 -->
                                 <div class="top_item">
                                     <a href="#">
-                                        <div class="top_item_image"><img src="images/no-image-available.png" alt=""></div>
+                                        <div class="top_item_image"><img src="WebContent/images/no-image-available.png" alt=""></div>
                                         <div class="top_item_content">
                                             <div class="top_item_title">Northern tour 1</div>
                                             <div class="top_item_price">0 đ</div>
@@ -151,7 +151,7 @@
                                 <!-- Miền Bắc item 2 -->
                                 <div class="top_item">
                                     <a href="#">
-                                        <div class="top_item_image"><img src="images/no-image-available.png" alt=""></div>
+                                        <div class="top_item_image"><img src="WebContent/images/no-image-available.png" alt=""></div>
                                         <div class="top_item_content">
                                             <div class="top_item_title">Northern tour 2</div>
                                             <div class="top_item_price">0 đ</div>
@@ -164,7 +164,7 @@
                                 <!-- Miền Bắc item 3 -->
                                 <div class="top_item">
                                     <a href="#">
-                                        <div class="top_item_image"><img src="images/no-image-available.png" alt=""></div>
+                                        <div class="top_item_image"><img src="WebContent/images/no-image-available.png" alt=""></div>
                                         <div class="top_item_content">
                                             <div class="top_item_title">Northern tour 3</div>
                                             <div class="top_item_price">0 đ</div>
@@ -184,7 +184,7 @@
                                 <!-- Miền Trung item 1 -->
                                 <div class="top_item">
                                     <a href="#">
-                                        <div class="top_item_image"><img src="images/no-image-available.png" alt=""></div>
+                                        <div class="top_item_image"><img src="WebContent/images/no-image-available.png" alt=""></div>
                                         <div class="top_item_content">
                                             <div class="top_item_title">Central tour 1</div>
                                             <div class="top_item_price">0 đ</div>
@@ -198,7 +198,7 @@
                                 <!-- Miền Trung item 2 -->
                                 <div class="top_item">
                                     <a href="#">
-                                        <div class="top_item_image"><img src="images/no-image-available.png" alt=""></div>
+                                        <div class="top_item_image"><img src="WebContent/images/no-image-available.png" alt=""></div>
                                         <div class="top_item_content">
                                             <div class="top_item_title">Central tour 2</div>
                                             <div class="top_item_price">0 đ</div>
@@ -212,7 +212,7 @@
                                 <!-- Miền Trung item 3 -->
                                 <div class="top_item">
                                     <a href="#">
-                                        <div class="top_item_image"><img src="images/no-image-available.png" alt=""></div>
+                                        <div class="top_item_image"><img src="WebContent/images/no-image-available.png" alt=""></div>
                                         <div class="top_item_content">
                                             <div class="top_item_title">Central tour 3</div>
                                             <div class="top_item_price">0 đ</div>
@@ -232,7 +232,7 @@
                                 <!-- Miền Nam item 1 -->
                                 <div class="top_item">
                                     <a href="#">
-                                        <div class="top_item_image"><img src="images/no-image-available.png" alt=""></div>
+                                        <div class="top_item_image"><img src="WebContent/images/no-image-available.png" alt=""></div>
                                         <div class="top_item_content">
                                             <div class="top_item_title">Southern tour 1</div>
                                             <div class="top_item_price">0 đ</div>
@@ -246,7 +246,7 @@
                                 <!-- Miền Nam item 2 -->
                                 <div class="top_item">
                                     <a href="#">
-                                        <div class="top_item_image"><img src="images/no-image-available.png" alt=""></div>
+                                        <div class="top_item_image"><img src="WebContent/images/no-image-available.png" alt=""></div>
                                         <div class="top_item_content">
                                             <div class="top_item_title">Southern tour 2</div>
                                             <div class="top_item_price">0 đ</div>
@@ -260,7 +260,7 @@
                                 <!-- Miền Nam item 3 -->
                                 <div class="top_item">
                                     <a href="#">
-                                        <div class="top_item_image"><img src="images/no-image-available.png" alt=""></div>
+                                        <div class="top_item_image"><img src="WebContent/images/no-image-available.png" alt=""></div>
                                         <div class="top_item_content">
                                             <div class="top_item_title">Southern tour 3</div>
                                             <div class="top_item_price">0 đ</div>
@@ -292,7 +292,7 @@
                             <!-- Popular Item -->
                             <div class="popular_item">
                                 <a href="#">
-                                    <div class="popular_item_image"><img src="images/no-image-available.png" alt=""></div>
+                                    <div class="popular_item_image"><img src="WebContent/images/no-image-available.png" alt=""></div>
                                     <div class="popular_item_content">
                                         <div class="popular_item_title">Popular tour 1</div>
                                         <div class="top_item_price">0 đ</div>
@@ -303,7 +303,7 @@
                             <!-- Popular Item -->
                             <div class="popular_item">
                                 <a href="#">
-                                    <div class="popular_item_image"><img src="images/no-image-available.png" alt=""></div>
+                                    <div class="popular_item_image"><img src="WebContent/images/no-image-available.png" alt=""></div>
                                     <div class="popular_item_content">
                                         <div class="popular_item_title">Popular tour 2</div>
                                         <div class="top_item_price">0 đ</div>
@@ -314,7 +314,7 @@
                             <!-- Popular Item -->
                             <div class="popular_item">
                                 <a href="#">
-                                    <div class="popular_item_image"><img src="images/no-image-available.png" alt=""></div>
+                                    <div class="popular_item_image"><img src="WebContent/images/no-image-available.png" alt=""></div>
                                     <div class="popular_item_content">
                                         <div class="popular_item_title">Popular tour 3</div>
                                         <div class="top_item_price">0 đ</div>
@@ -325,7 +325,7 @@
                             <!-- Popular Item -->
                             <div class="popular_item">
                                 <a href="#">
-                                    <div class="popular_item_image"><img src="images/no-image-available.png" alt=""></div>
+                                    <div class="popular_item_image"><img src="WebContent/images/no-image-available.png" alt=""></div>
                                     <div class="popular_item_content">
                                         <div class="popular_item_title">Popular tour 4</div>
                                         <div class="top_item_price">0 đ</div>
@@ -336,7 +336,7 @@
                             <!-- Popular Item -->
                             <div class="popular_item">
                                 <a href="#">
-                                    <div class="popular_item_image"><img src="images/no-image-available.png" alt=""></div>
+                                    <div class="popular_item_image"><img src="WebContent/images/no-image-available.png" alt=""></div>
                                     <div class="popular_item_content">
                                         <div class="popular_item_title">Popular tour 5</div>
                                         <div class="top_item_price">0 đ</div>
@@ -347,7 +347,7 @@
                             <!-- Popular Item -->
                             <div class="popular_item">
                                 <a href="#">
-                                    <div class="popular_item_image"><img src="images/no-image-available.png" alt=""></div>
+                                    <div class="popular_item_image"><img src="WebContent/images/no-image-available.png" alt=""></div>
                                     <div class="popular_item_content">
                                         <div class="popular_item_title">Popular tour 6</div>
                                         <div class="top_item_price">0 đ</div>
@@ -358,7 +358,7 @@
                             <!-- Popular Item -->
                             <div class="popular_item">
                                 <a href="#">
-                                    <div class="popular_item_image"><img src="images/no-image-available.png" alt=""></div>
+                                    <div class="popular_item_image"><img src="WebContent/images/no-image-available.png" alt=""></div>
                                     <div class="popular_item_content">
                                         <div class="popular_item_title">Popular tour 7</div>
                                         <div class="top_item_price">0 đ</div>
@@ -369,7 +369,7 @@
                             <!-- Popular Item -->
                             <div class="popular_item">
                                 <a href="#">
-                                    <div class="popular_item_image"><img src="images/no-image-available.png" alt=""></div>
+                                    <div class="popular_item_image"><img src="WebContent/images/no-image-available.png" alt=""></div>
                                     <div class="popular_item_content">
                                         <div class="popular_item_title">Popular tour 8</div>
                                         <div class="top_item_price">0 đ</div>
@@ -402,7 +402,7 @@
                         <!-- Special Offers Item -->
                         <div class="owl-item">
                             <div class="special_item">
-                                <div class="special_item_background"><img src="images/special_1.jpg" alt="https://unsplash.com/@garciasaldana_"></div>
+                                <div class="special_item_background"><img src="WebContent/images/special_1.jpg" alt="https://unsplash.com/@garciasaldana_"></div>
                                 <div class="special_item_content text-center">
                                     <div class="special_title"><a href="#">Tỉnh A</a></div>
                                 </div>
@@ -412,7 +412,7 @@
                         <!-- Special Offers Item -->
                         <div class="owl-item">
                             <div class="special_item d-flex flex-column align-items-center justify-content-center">
-                                <div class="special_item_background"><img src="images/special_2.jpg" alt="https://unsplash.com/@varshesh"></div>
+                                <div class="special_item_background"><img src="WebContent/images/special_2.jpg" alt="https://unsplash.com/@varshesh"></div>
                                 <div class="special_item_content text-center">
                                     <div class="special_title"><a href="#">Tỉnh B</a></div>
                                 </div>
@@ -422,7 +422,7 @@
                         <!-- Special Offers Item -->
                         <div class="owl-item">
                             <div class="special_item d-flex flex-column align-items-center justify-content-center">
-                                <div class="special_item_background"><img src="images/special_3.jpg" alt="https://unsplash.com/@paulgilmore_"></div>
+                                <div class="special_item_background"><img src="WebContent/images/special_3.jpg" alt="https://unsplash.com/@paulgilmore_"></div>
                                 <div class="special_item_content text-center">
                                     <div class="special_title"><a href="#">Tỉnh C</a></div>
                                 </div>
@@ -432,7 +432,7 @@
                         <!-- Special Offers Item -->
                         <div class="owl-item">
                             <div class="special_item d-flex flex-column align-items-center justify-content-center">
-                                <div class="special_item_background"><img src="images/special_4.jpg" alt="https://unsplash.com/@hellolightbulb"></div>
+                                <div class="special_item_background"><img src="WebContent/images/special_4.jpg" alt="https://unsplash.com/@hellolightbulb"></div>
                                 <div class="special_item_content text-center">
                                     <div class="special_title"><a href="#">Tỉnh D</a></div>
                                 </div>
@@ -442,7 +442,7 @@
                         <!-- Special Offers Item -->
                         <div class="owl-item">
                             <div class="special_item d-flex flex-column align-items-center justify-content-center">
-                                <div class="special_item_background"><img src="images/special_5.jpg" alt="https://unsplash.com/@dnevozhai"></div>
+                                <div class="special_item_background"><img src="WebContent/images/special_5.jpg" alt="https://unsplash.com/@dnevozhai"></div>
                                 <div class="special_item_content text-center">
                                     <div class="special_title"><a href="#">Tỉnh E</a></div>
                                 </div>
@@ -452,7 +452,7 @@
                     </div>
 
                     <div class="special_slider_nav d-flex flex-column align-items-center justify-content-center">
-                        <img src="images/special_slider.png" alt="">
+                        <img src="WebContent/images/special_slider.png" alt="">
                     </div>
                 </div>
             </div>
@@ -462,7 +462,7 @@
 
         <div class="newsletter">
             <!-- Image by https://unsplash.com/@garciasaldana_ -->
-            <div class="newsletter_background" style="background-image:url(images/newsletter.jpg)"></div>
+            <div class="newsletter_background" style="background-image:url(WebContent/images/newsletter.jpg)"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-10 offset-lg-1">
@@ -496,7 +496,7 @@
                                 <div class="logo">
                                     <div>uit</div>
                                     <div>travel</div>
-                                    <div class="logo_image"><img src="images/logo.png" alt=""></div>
+                                    <div class="logo_image"><img src="WebContent/images/logo.png" alt=""></div>
                                 </div>
                             </div>
                             <div class="footer_about_text">Trang thông tin du lịch trong nước.</div>
@@ -519,7 +519,7 @@
 
                                 <!-- Footer Latest Post -->
                                 <div class="footer_latest_item">
-                                    <div class="footer_latest_image"><img src="images/latest_1.jpg" alt="https://unsplash.com/@peecho"></div>
+                                    <div class="footer_latest_image"><img src="WebContent/images/latest_1.jpg" alt="https://unsplash.com/@peecho"></div>
                                     <div class="footer_latest_item_content">
                                         <div class="footer_latest_item_title"><a href="#">Một kỳ nghỉ hoàn hảo</a>
                                         </div>
@@ -529,7 +529,7 @@
 
                                 <!-- Footer Latest Post -->
                                 <div class="footer_latest_item">
-                                    <div class="footer_latest_image"><img src="images/latest_2.jpg" alt="https://unsplash.com/@sanfrancisco"></div>
+                                    <div class="footer_latest_image"><img src="WebContent/images/latest_2.jpg" alt="https://unsplash.com/@sanfrancisco"></div>
                                     <div class="footer_latest_item_content">
                                         <div class="footer_latest_item_title"><a href="#">Mùa hè ở miền biển nhiệt đới</a>
                                         </div>
@@ -563,15 +563,15 @@
         </footer>
     </div>
 
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="styles/bootstrap4/popper.js"></script>
-    <script src="styles/bootstrap4/bootstrap.min.js"></script>
-    <script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
-    <script src="plugins/easing/easing.js"></script>
-    <script src="plugins/parallax-js-master/parallax.min.js"></script>
-    <script src="plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
-    <script src="js/custom.js"></script>
-    <script src="js/home_data.js"></script>
-    <script src="js/tour_search.js"></script>
+    <script src="WebContent/js/jquery-3.2.1.min.js"></script>
+    <script src="WebContent/styles/bootstrap4/popper.js"></script>
+    <script src="WebContent/styles/bootstrap4/bootstrap.min.js"></script>
+    <script src="WebContent/plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+    <script src="WebContent/plugins/easing/easing.js"></script>
+    <script src="WebContent/plugins/parallax-js-master/parallax.min.js"></script>
+    <script src="WebContent/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="WebContent/js/custom.js"></script>
+    <script src="WebContent/js/home_data.js"></script>
+    <script src="WebContent/js/tour_search.js"></script>
 </body>
 </html>
